@@ -1265,6 +1265,10 @@ PrefabInstance:
       propertyPath: ShapeModule.radius.value
       value: 0.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 199352953444421290, guid: a3553fd250eb92d4091bebde350c6739, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7517881d99dd1674e90c1ceb64d4353d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3553fd250eb92d4091bebde350c6739, type: 3}
 --- !u!4 &816920022660332832 stripped
@@ -1355,6 +1359,10 @@ PrefabInstance:
       propertyPath: ShapeModule.radius.value
       value: 0.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 605391004200926644, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7517881d99dd1674e90c1ceb64d4353d, type: 2}
     - target: {fileID: 765908706338028246, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_Name
       value: Left Thruster Particles
@@ -1426,6 +1434,10 @@ PrefabInstance:
       propertyPath: ShapeModule.radius.value
       value: 0.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 605391004200926644, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7517881d99dd1674e90c1ceb64d4353d, type: 2}
     - target: {fileID: 765908706338028246, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_Name
       value: Right Thruster Particles

@@ -5,8 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     // PARAMETERS
-    // CACHE
-    // STATE
 
     [SerializeField] float mainThrust = 100f;
     [SerializeField] float rotationThrust = 1f;
@@ -15,8 +13,12 @@ public class Movement : MonoBehaviour
     [SerializeField] ParticleSystem leftThrustParticles = null;
     [SerializeField] ParticleSystem rightThrustParticles = null;
 
+
+    // CACHE
     Rigidbody rb = null;
     AudioSource audioSource = null;
+
+    // STATE
 
     void Start()
     {
